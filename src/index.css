@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 
+This is a directive provided by Tailwind CSS
+that allows you to group styles into specific
+layers. Tailwind has three default layers: 
+base, components, and utilities.
+ */
+@layer base{
+  /* html { ... }: This applies styles to the html element of the entire document. */
+  html { 
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+}
