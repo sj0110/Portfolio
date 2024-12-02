@@ -5,11 +5,20 @@ import Spotify from '../assets/Spotify.png'
 import TaskQ from '../assets/TaskQ.png'
 import Twitter from '../assets/Twitter.png'
 import UTM from '../assets/UTM.png'
+import Quiz from '../assets/Quiz.png'
 
 const Portfolio = () => {
     const projects = [
         {
-            id: 1,
+            id: 7,
+            src: Quiz,
+            alt: 'AI Maturity Tracker - Intent based Quiz App',
+            hrefSrc: 'https://github.com/sj0110/quiz-app',
+            hrefDemo: 'https://sj0110.github.io/quiz-app/',
+            shadow: 'shadow-[#0064FF]'
+        },
+        {
+            id: 6,
             src: TaskQ,
             alt: 'TaskQ - Todo App',
             hrefSrc: 'https://github.com/sj0110/TaskQ-Todo-App---React',
@@ -17,7 +26,7 @@ const Portfolio = () => {
             shadow: 'shadow-[#475B4F]'
         },
         {
-            id: 2,
+            id: 5,
             src: UTM,
             alt: 'UTM Tracker URL Builder',
             hrefSrc: 'https://github.com/sj0110/UTM-Tracker-URL-Builder',
@@ -25,7 +34,7 @@ const Portfolio = () => {
             shadow: 'shadow-[#FFFFFF]'
         },
         {
-            id: 3,
+            id: 4,
             src: Netflix,
             alt: 'Netflix Responsive UI Clone',
             hrefSrc: 'https://github.com/sj0110/Netflix-Clone',
@@ -33,7 +42,7 @@ const Portfolio = () => {
             shadow: 'shadow-[#E50815]'
         },
         {
-            id: 4,
+            id: 3,
             src: Twitter,
             alt: 'Twitter Responsive UI Clone',
             hrefSrc: 'https://github.com/sj0110/Twitter-UI-Clone',
@@ -41,7 +50,7 @@ const Portfolio = () => {
             shadow: 'shadow-[#E65451]'
         },
         {
-            id: 5,
+            id: 2,
             src: Spotify,
             alt: 'Spotify Theme Music Player',
             hrefSrc: 'https://github.com/sj0110/Spotify-Music-Player',
@@ -49,7 +58,7 @@ const Portfolio = () => {
             shadow: 'shadow-[#1FD560]'
         },
         {
-            id: 6,
+            id: 1,
             src: Ratify,
             alt: 'Ratify - Local Businesses Review Platform',
             hrefSrc: 'https://github.com/adityasahu2003/local-biz/tree/frontend-dev',
