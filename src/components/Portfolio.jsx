@@ -5,7 +5,7 @@ import Spotify from '../assets/Spotify.png'
 import TaskQ from '../assets/TaskQ.png'
 import Twitter from '../assets/Twitter.png'
 import UTM from '../assets/UTM.png'
-import Quiz from '../assets/Quiz.png'
+import Quiz from '../assets/quiz.png'
 
 const Portfolio = () => {
     const projects = [
