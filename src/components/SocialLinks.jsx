@@ -53,7 +53,7 @@ const SocialLinks = () => {
           Resume <IoDocumentTextSharp size={25} />
         </>
       ),
-      href: 'https://suyash-jain-resume-sde.tiiny.site/',
+      href: 'https://suyash-jain-resume.tiiny.site/',
     },
     // {
     //   id: 6,
