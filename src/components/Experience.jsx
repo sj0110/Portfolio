@@ -12,20 +12,22 @@ import RT from '../assets/react.png'
 import SQL from '../assets/sql.png'
 import TW from '../assets/tailwind.png'
 import WP from '../assets/wordpress.png'
+import NJ from '../assets/nextjs.png'
 
 const Experience = () => {
     const langs = [
         
-        { id: 1, name: 'React', src: RT, shadow: 'shadow-[#61dafb]' },       // React blue
-        { id: 2, name: 'Tailwind CSS', src: TW, shadow: 'shadow-[#38b2ac]' },// Tailwind teal
-        { id: 3, name: 'Bootstrap', src: BS, shadow: 'shadow-[#7952b3]' },   // Bootstrap purple
-        { id: 4, name: 'HTML', src: HTML, shadow: 'shadow-[#e34c26]' },      // HTML5 orange
-        { id: 5, name: 'CSS', src: CSS, shadow: 'shadow-[#264de4]' },        // CSS blue
-        { id: 6, name: 'JavaScript', src: JS, shadow: 'shadow-[#f7df1e]' },  // JavaScript yellow
-        { id: 7, name: 'Git/GitHub', src: git, shadow: 'shadow-[#f05033]' },        // Git orange
-        { id: 8, name: 'SQL/MySQL', src: SQL, shadow: 'shadow-[#DB7432]' },       // SQL blue (same as MySQL)
-        { id: 9, name: 'C/C++', src: C, shadow: 'shadow-[#a8b9cc]' },  // C language gray
-        { id: 10, name: 'WordPress', src: WP, shadow: 'shadow-[#21759b]' },  // WordPress blue
+        { id: 11, name: 'NextJS', src: NJ, shadow: 'shadow-[#ffffff]' },  
+        { id: 10, name: 'React', src: RT, shadow: 'shadow-[#61dafb]' },       // React blue
+        { id: 9, name: 'Tailwind CSS', src: TW, shadow: 'shadow-[#38b2ac]' },// Tailwind teal
+        { id: 8, name: 'Bootstrap', src: BS, shadow: 'shadow-[#7952b3]' },   // Bootstrap purple
+        { id: 7, name: 'HTML', src: HTML, shadow: 'shadow-[#e34c26]' },      // HTML5 orange
+        { id: 6, name: 'CSS', src: CSS, shadow: 'shadow-[#264de4]' },        // CSS blue
+        { id: 5, name: 'JavaScript', src: JS, shadow: 'shadow-[#f7df1e]' },  // JavaScript yellow
+        { id: 4, name: 'Git/GitHub', src: git, shadow: 'shadow-[#f05033]' },        // Git orange
+        { id: 3, name: 'SQL/MySQL', src: SQL, shadow: 'shadow-[#DB7432]' },       // SQL blue (same as MySQL)
+        { id: 2, name: 'C/C++', src: C, shadow: 'shadow-[#a8b9cc]' },  // C language gray
+        { id: 1, name: 'WordPress', src: WP, shadow: 'shadow-[#21759b]' },  // WordPress blue
 
     ];
       

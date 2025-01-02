@@ -6,9 +6,28 @@ import TaskQ from '../assets/TaskQ.png'
 import Twitter from '../assets/Twitter.png'
 import UTM from '../assets/UTM.png'
 import Quiz from '../assets/quiz.png'
+import URL from '../assets/URL.png'
+import passOp from '../assets/passOp.png'
 
+// Image Sizes: 941x720
 const Portfolio = () => {
     const projects = [
+        {
+            id: 9,
+            src: URL,
+            alt: 'Bitlinks - URL Shortener',
+            hrefSrc: 'https://github.com/sj0110/url-shortner',
+            hrefDemo: '',
+            shadow: 'shadow-[#0064FF]'
+        },
+        {
+            id: 8,
+            src: passOp,
+            alt: 'PassOp-Password Manager',
+            hrefSrc: 'https://github.com/sj0110/passop-password-manager',
+            hrefDemo: '',
+            shadow: 'shadow-[#0064FF]'
+        },
         {
             id: 7,
             src: Quiz,
