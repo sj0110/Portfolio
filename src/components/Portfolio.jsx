@@ -96,7 +96,7 @@ const Portfolio = () => {
                 <div className='grid grid-cols-2 md:grid-cols-3 gap-8'>
                     {projects.map(project => {
                         return <div key={project.id} className={'shadow-md rounded-lg' + ' ' + project.shadow}>
-                        <img src={project.src} alt={project.alt} className='rounded-md duration-200 hover:scale-105' />
+                        <img src={project.src} alt={project.alt} className='rounded-md duration-200 hover:scale-105' loading='lazy' />
                         <div className='flex items-center justify-around p-4 font-bold text-gray-500'>
                             {(project.hrefDemo != '') && <a href={project.hrefDemo} target='_blank' rel='noreferrer'><button className='duration-200 hover:text-white hover:scale-105'>Demo</button></a>}
                             {(project.hrefSrc!= '') && <a href={project.hrefSrc} target='_blank' rel='noreferrer'><button className='duration-200 hover:text-white hover:scale-105'>Code</button></a>}

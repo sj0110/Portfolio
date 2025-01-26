@@ -23,7 +23,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={heroImage} alt="Suyash-Jain.png" className='rounded-2xl mx-auto w-2/3 md:w-full' />
+                    <img src={heroImage} alt="Suyash-Jain.png" className='rounded-2xl mx-auto w-2/3 md:w-full' loading='lazy' />
                 </div>
             </div>
         </div>

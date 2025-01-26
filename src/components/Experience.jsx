@@ -43,7 +43,7 @@ const Experience = () => {
                     {langs.map(lang => {
                         return <div key={lang.id} className={`duration-200 hover:scale-105 shadow-md rounded-lg ${lang.shadow}`}>
                         <div className='py-4 flex flex-col justify-center items-center gap-4 text-center max-w-xs'>
-                            <img src={lang.src} alt={lang.alt} className='w-20 rounded-md' />
+                            <img src={lang.src} alt={lang.alt} className='w-20 rounded-md' loading='lazy' />
                             <p className='text-white break-words max-w-32'>{lang.name}</p>
                         </div>
                     </div>
