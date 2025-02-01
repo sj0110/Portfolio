@@ -11,7 +11,7 @@ const Home = () => {
             <div className='max-w-screen-lg flex flex-col gap-16 justify-center items-center md:flex-row'>
                 <div className='flex flex-col justify-center gap-4 h-full'>
                     <h2 className='text-3xl sm:text-5xl font-bold text-white'>
-                        I'm a Frontend Developer and UI/UX Designer
+                        I'm a Full Stack Web Developer and UI/UX Designer
                     </h2>
                     <p className='text-gray-500 max-w-md'>I specialize in crafting responsive, user-friendly web applications using React JS, Tailwind CSS, and Bootstrap. With a strong focus on design, I create intuitive and engaging interfaces using Figma, blending creativity with technical expertise for seamless user experiences.</p>
                     <div>
