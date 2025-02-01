@@ -13,13 +13,17 @@ import SQL from '../assets/sql.png'
 import TW from '../assets/tailwind.png'
 import WP from '../assets/wordpress.png'
 import NJ from '../assets/nextjs.png'
+import N from '../assets/node.png'
+import EJS from '../assets/expressjs.png'
 import {motion} from 'motion/react'
 
 const Experience = () => {
     const langs = [
         
-        { id: 11, name: 'NextJS', src: NJ, shadow: 'shadow-[#ffffff]' },  
-        { id: 10, name: 'React', src: RT, shadow: 'shadow-[#61dafb]' },       // React blue
+        { id: 13, name: 'NextJS', src: NJ, shadow: 'shadow-[#ffffff]' },  // NextJS white
+        { id: 12, name: 'React', src: RT, shadow: 'shadow-[#61dafb]' },         // React blue
+        { id: 11, name: 'ExpressJS', src: EJS, shadow: 'shadow-[#ffffff]' },    //Express White
+        { id: 10, name: 'NodeJS', src: N, shadow: 'shadow-[#8CC74C]' },       // Node green
         { id: 9, name: 'Tailwind CSS', src: TW, shadow: 'shadow-[#38b2ac]' },// Tailwind teal
         { id: 8, name: 'Bootstrap', src: BS, shadow: 'shadow-[#7952b3]' },   // Bootstrap purple
         { id: 7, name: 'HTML', src: HTML, shadow: 'shadow-[#e34c26]' },      // HTML5 orange
